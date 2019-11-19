@@ -104,7 +104,7 @@ def get_city():
         cities_count += 1
         print('{0:20}. {1}'.format(cities_count, city.title()))
 
-    # ask user to input a number for a city from the list; easier for user than string input
+    # ask the user to input a number for a city from the list; easier for user than string input
     while True:
         try:
             city_num = int(input("\nEnter a number for the city (1 - {}):  ".format(len(cities))))
