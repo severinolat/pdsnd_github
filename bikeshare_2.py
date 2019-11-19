@@ -95,7 +95,6 @@ def get_city():
     Returns:
         (str) city - name of the city to use for the analyse
     """
-    # build and display the list of cities for which we have datasets
     cities = []
     cities_count = 0
 
