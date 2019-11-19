@@ -135,7 +135,7 @@ def get_filters():
     # get user input for month (all, january, february, ... , june)
     month = get_month()
 
-    # get user input for day of week (all, monday, tuesday, ... sunday)
+    # get the user input for day of week (all, monday, tuesday, ... sunday)
     day = get_day()
 
     print('-' * 40)
